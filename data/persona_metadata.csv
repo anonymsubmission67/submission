@@ -1,0 +1,91 @@
+id,age,sex,ethnicity,income,education,political_view,name
+ba3bde52,64,Female,White,27600.0$,Secondary Level Education,No Specific Political View,Johnston
+acf2bf1c,35,Female,White,699500.0$,Bachelor’s or equivalent level,Democrat,Ryan
+86686476,83,Female,White,87600.0$,Secondary Level Education,Republican,Ryan
+3849aeea,68,Male,White,27600.0$,Secondary Level Education,No Specific Political View,Hoffman
+dd65e465,41,Male,White,87600.0$,Bachelor’s or equivalent level,Democrat,Larson
+5c70ee1d,54,Female,White,699500.0$,Secondary Level Education,Democrat,Schmidt
+0389f116,33,Male,White,699500.0$,Bachelor’s or equivalent level,No Specific Political View,Schmidt
+514f6278,42,Male,White,699500.0$,Secondary Level Education,Republican,Johnston
+4d8566fb,26,Female,White,27600.0$,Bachelor’s or equivalent level,Democrat,Meyer
+358ec00a,64,Male,White,87600.0$,Master’s or equivalent level,Republican,Wagner
+ec514038,41,Male,White,27600.0$,Bachelor’s or equivalent level,No Specific Political View,Schmidt
+0046bae9,14,Female,Asian,27600.0$,Secondary Level Education,No Specific Political View,Tran
+dbae9dbf,39,Male,White,87600.0$,Secondary Level Education,Republican,Hansen
+106db71d,36,Male,White,87600.0$,Bachelor’s or equivalent level,Republican,Snyder
+5d459e5c,14,Male,White,27600.0$,Secondary Level Education,Democrat,Snyder
+5a9e11e5,56,Female,White,87600.0$,Bachelor’s or equivalent level,Democrat,Meyer
+96e53208,57,Female,White,699500.0$,Bachelor’s or equivalent level,Democrat,Ryan
+7d39020c,52,Female,African American,699500.0$,Bachelor’s or equivalent level,Democrat,Gadson
+d913bf5e,49,Male,White,699500.0$,Bachelor’s or equivalent level,Republican,Johnston
+db13cea8,38,Male,White,699500.0$,Bachelor’s or equivalent level,Republican,Hansen
+31467658,59,Female,White,699500.0$,Secondary Level Education,No Specific Political View,Meyer
+e8d3afdf,62,Male,White,699500.0$,Secondary Level Education,No Specific Political View,Hansen
+37155d7f,28,Male,White,27600.0$,Bachelor’s or equivalent level,No Specific Political View,Johnston
+4dfd6e60,14,Female,Hispanic,27600.0$,Secondary Level Education,No Specific Political View,Martinez
+b4616812,13,Male,White,0.0$,Secondary Level Education,No Specific Political View,Schmidt
+cff1fd89,81,Male,Hispanic,27600.0$,Master’s or equivalent level,Democrat,Garcia
+9ebca323,63,Female,African American,27600.0$,Bachelor’s or equivalent level,Republican,Kamara
+9f8706c5,42,Male,White,27600.0$,Secondary Level Education,Republican,Schmidt
+9e8a6f5e,14,Male,Hispanic,27600.0$,Secondary Level Education,No Specific Political View,Perez
+e9e553a0,20,Male,African American,27600.0$,Bachelor’s or equivalent level,No Specific Political View,Bah
+d477297d,17,Male,Hispanic,699500.0$,Secondary Level Education,Democrat,Gonzalez
+5e8191b6,26,Male,White,27600.0$,Secondary Level Education,Republican,Olson
+7da0c355,28,Male,Hispanic,87600.0$,Master’s or equivalent level,Democrat,Garcia
+cfbf1ceb,63,Male,Hispanic,699500.0$,Bachelor’s or equivalent level,No Specific Political View,Hernandez
+effa1005,95,Female,White,27600.0$,Secondary Level Education,Republican,Snyder
+fae36938,51,Female,White,699500.0$,Master’s or equivalent level,Democrat,Olson
+f6743547,13,Female,Hispanic,27600.0$,Secondary Level Education,Republican,Martinez
+d73fdc9c,13,Male,Hispanic,27600.0$,Secondary Level Education,No Specific Political View,Hernandez
+a72e3524,44,Female,African American,699500.0$,Bachelor’s or equivalent level,Democrat,Jeanbaptiste
+a24de4cd,65,Female,White,87600.0$,Bachelor’s or equivalent level,No Specific Political View,Schmidt
+7da0c355,28,Male,Hispanic,87600.0$,Master’s or equivalent level,Democrat,Ramirez
+6725b509,48,Female,White,699500.0$,Master’s or equivalent level,Democrat,Ryan
+4fd67f4c,15,Female,Hispanic,27600.0$,Secondary Level Education,No Specific Political View,Sanchez
+7a702b78,33,Male,Hispanic,87600.0$,Bachelor’s or equivalent level,Democrat,Torres
+a4a20347,21,Female,White,27600.0$,Secondary Level Education,Republican,Hansen
+aff98399,30,Female,White,87600.0$,Master’s or equivalent level,Democrat,Wagner
+23283287,66,Male,White,87600.0$,Bachelor’s or equivalent level,Democrat,Hansen
+6e53a767,50,Female,White,87600.0$,Bachelor’s or equivalent level,Democrat,Hansen
+6105f414,40,Male,Asian,699500.0$,Bachelor’s or equivalent level,Democrat,Patel
+43f8bf69,59,Male,White,699500.0$,Bachelor’s or equivalent level,No Specific Political View,Wagner
+5cac6985,61,Female,Hispanic,87600.0$,Master’s or equivalent level,Democrat,Martinez
+d233d505,54,Male,White,87600.0$,Secondary Level Education,Republican,Olson
+c0c4b464,40,Female,Hispanic,699500.0$,Master’s or equivalent level,Democrat,Sanchez
+78d05194,86,Female,White,27600.0$,Secondary Level Education,Republican,Larson
+2b1ca3f1,55,Female,White,27600.0$,Secondary Level Education,No Specific Political View,Olson
+8fbcbc84,59,Male,Asian,87600.0$,Bachelor’s or equivalent level,No Specific Political View,Chen
+27e32618,55,Male,Hispanic,699500.0$,Secondary Level Education,Republican,Perez
+d3f34544,36,Female,White,87600.0$,Bachelor’s or equivalent level,Republican,Wagner
+8fffb054,41,Female,White,87600.0$,Bachelor’s or equivalent level,No Specific Political View,Snyder
+350ec068,85,Female,White,27600.0$,Secondary Level Education,Republican,Hoffman
+1c6a9921,58,Male,African American,27600.0$,Secondary Level Education,Republican,Mensah
+d3f34544,36,Female,White,87600.0$,Bachelor’s or equivalent level,Republican,Schmidt
+056348d0,78,Male,African American,27600.0$,Secondary Level Education,Republican,Diallo
+7dbef1a1,33,Female,White,27600.0$,Bachelor’s or equivalent level,Democrat,Olson
+8ebc627c,13,Male,White,0.0$,Secondary Level Education,No Specific Political View,Hansen
+41d4cf0b,41,Male,White,27600.0$,Bachelor’s or equivalent level,No Specific Political View,Meyer
+2ce57325,78,Male,White,87600.0$,Bachelor’s or equivalent level,Republican,Larson
+03a124da,56,Female,White,699500.0$,Master’s or equivalent level,Republican,Hoffman
+23962d3f,27,Female,Hispanic,27600.0$,Secondary Level Education,No Specific Political View,Hernandez
+350e088e,71,Female,White,87600.0$,Bachelor’s or equivalent level,Republican,Meyer
+f13f3dba,16,Male,White,27600.0$,Secondary Level Education,No Specific Political View,Larson
+96c9273b,58,Male,Hispanic,27600.0$,Secondary Level Education,Republican,Torres
+1f009236,91,Female,White,87600.0$,Secondary Level Education,Republican,Johnston
+569c7c2d,86,Female,Asian,87600.0$,Secondary Level Education,Republican,Pham
+e062e69b,41,Male,White,699500.0$,Bachelor’s or equivalent level,No Specific Political View,Wagner
+2f1bb377,64,Female,White,699500.0$,Secondary Level Education,No Specific Political View,Schmidt
+f4781762,67,Female,White,87600.0$,Bachelor’s or equivalent level,Democrat,Ryan
+d85a7dca,65,Female,Hispanic,699500.0$,Bachelor’s or equivalent level,Democrat,Ramirez
+6e319b56,59,Female,White,699500.0$,Bachelor’s or equivalent level,Republican,Wagner
+72f49ccf,63,Male,White,87600.0$,Bachelor’s or equivalent level,Democrat,Olson
+ed4709c6,29,Female,White,27600.0$,Secondary Level Education,Democrat,Wagner
+92976806,50,Male,White,87600.0$,Secondary Level Education,Democrat,Schmidt
+51866315,14,Female,Asian,27600.0$,Secondary Level Education,No Specific Political View,Le
+65348833,15,Female,Hispanic,0.0$,Secondary Level Education,No Specific Political View,Garcia
+e959879a,15,Female,Hispanic,0.0$,Secondary Level Education,No Specific Political View,Lopez
+ea4c60a6,95,Female,White,27600.0$,Bachelor’s or equivalent level,Democrat,Ryan
+5053ac35,31,Female,White,87600.0$,Bachelor’s or equivalent level,Republican,Wagner
+1ec2cfd1,14,Male,White,27600.0$,Secondary Level Education,No Specific Political View,Johnston
+764550e2,90,Female,Asian,27600.0$,Bachelor’s or equivalent level,Democrat,Kim
+fe750fa8,38,Female,White,87600.0$,Master’s or equivalent level,Republican,Johnston
