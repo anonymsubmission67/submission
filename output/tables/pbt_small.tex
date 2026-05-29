@@ -1,0 +1,39 @@
+
+    \begin{table}[h]
+        \centering
+        {\small
+        \setlength{\tabcolsep}{3.5pt}
+        \begin{tabular}{@{}l|ccc|ccc@{}}
+            \toprule
+            \multirow{2}{*}{\textbf{}} & \multicolumn{3}{c}{\textbf{party-agnostic}} & \multicolumn{3}{c}{\textbf{party-aware}} \\
+            \cmidrule(lr){2-4} \cmidrule(lr){5-7}
+            & \textbf{test} & \textbf{sig} & \textbf{PB-T} & \textbf{test} & \textbf{sig} & \textbf{PB-T} \\
+            \midrule
+            \cellcolor{gray!10}Phi 3 mini & \cellcolor{gray!10}t & \cellcolor{gray!10}$-$ & \cellcolor{gray!10}-0.169 & \cellcolor{gray!10}U & \cellcolor{gray!10}$-$ & \cellcolor{gray!10}-0.297 \\
+        \cellcolor{gray!70!black!10}Phi 3 small & \cellcolor{gray!70!black!10}U & \cellcolor{gray!70!black!10}\textcolor{blue}{$\ast$} & \cellcolor{gray!70!black!10}-0.306 & \cellcolor{gray!70!black!10}U & \cellcolor{gray!70!black!10}$-$ & \cellcolor{gray!70!black!10}-0.227 \\
+        \cellcolor{gray!40!black!10}Phi 3 medium & \cellcolor{gray!40!black!10}U & \cellcolor{gray!40!black!10}$-$ & \cellcolor{gray!40!black!10}-0.168 & \cellcolor{gray!40!black!10}U & \cellcolor{gray!40!black!10}$-$ & \cellcolor{gray!40!black!10}-0.290 \\
+        \cellcolor{blue!10}Phi 3 Liberal & \cellcolor{blue!10}U & \cellcolor{blue!10}$-$ & \cellcolor{blue!10}-0.148 & \cellcolor{blue!10}U & \cellcolor{blue!10}\textcolor{blue}{$\ast$} & \cellcolor{blue!10}-0.396 \\
+        \cellcolor{red!10}Phi 3 Conservative & \cellcolor{red!10}t & \cellcolor{red!10}$-$ & \cellcolor{red!10}-0.139 & \cellcolor{red!10}U & \cellcolor{red!10}$-$ & \cellcolor{red!10}-0.297 \\
+        \cellcolor{violet!10}Ministral 3B & \cellcolor{violet!10}U & \cellcolor{violet!10}$-$ & \cellcolor{violet!10}-0.158 & \cellcolor{violet!10}U & \cellcolor{violet!10}$-$ & \cellcolor{violet!10}-0.245 \\
+        \cellcolor{magenta!10}Ministral 8B & \cellcolor{magenta!10}U & \cellcolor{magenta!10}$-$ & \cellcolor{magenta!10}-0.240 & \cellcolor{magenta!10}U & \cellcolor{magenta!10}\textcolor{blue}{$\ast$} & \cellcolor{magenta!10}-0.315 \\
+        \cellcolor{purple!10}Ministral 14B & \cellcolor{purple!10}U & \cellcolor{purple!10}$-$ & \cellcolor{purple!10}-0.239 & \cellcolor{purple!10}U & \cellcolor{purple!10}\textcolor{blue}{$\ast$} & \cellcolor{purple!10}-0.340 \\
+        \cellcolor{blue!50!black!10}Mixtral 8x7B & \cellcolor{blue!50!black!10}t & \cellcolor{blue!50!black!10}$-$ & \cellcolor{blue!50!black!10}-0.250 & \cellcolor{blue!50!black!10}U & \cellcolor{blue!50!black!10}\textcolor{blue}{$\ast\ast$} & \cellcolor{blue!50!black!10}-0.534 \\
+        \cellcolor{brown!10}Qwen3 4B & \cellcolor{brown!10}U & \cellcolor{brown!10}$-$ & \cellcolor{brown!10}-0.106 & \cellcolor{brown!10}U & \cellcolor{brown!10}$-$ & \cellcolor{brown!10}-0.204 \\
+        \cellcolor{brown!50!black!10}Qwen3 30B & \cellcolor{brown!50!black!10}U & \cellcolor{brown!50!black!10}$-$ & \cellcolor{brown!50!black!10}-0.279 & \cellcolor{brown!50!black!10}U & \cellcolor{brown!50!black!10}\textcolor{blue}{$\ast$} & \cellcolor{brown!50!black!10}-0.403 \\
+        \cellcolor{brown!70!black!10}Qwen3 80B & \cellcolor{brown!70!black!10}U & \cellcolor{brown!70!black!10}\textcolor{blue}{$\ast$} & \cellcolor{brown!70!black!10}-0.352 & \cellcolor{brown!70!black!10}U & \cellcolor{brown!70!black!10}\textcolor{blue}{$\ast\ast$} & \cellcolor{brown!70!black!10}-0.519 \\
+        \cellcolor{green!10}Llama3 8B & \cellcolor{green!10}U & \cellcolor{green!10}$-$ & \cellcolor{green!10}-0.210 & \cellcolor{green!10}U & \cellcolor{green!10}\textcolor{blue}{$\ast$} & \cellcolor{green!10}-0.352 \\
+        \cellcolor{green!50!black!10}Llama3 80B & \cellcolor{green!50!black!10}U & \cellcolor{green!50!black!10}\textcolor{blue}{$\ast\ast$} & \cellcolor{green!50!black!10}-0.404 & \cellcolor{green!50!black!10}U & \cellcolor{green!50!black!10}\textcolor{blue}{$\ast\ast$} & \cellcolor{green!50!black!10}-0.542 \\
+        \cellcolor{green!70!black!10}Llama 4 Scout & \cellcolor{green!70!black!10}t & \cellcolor{green!70!black!10}$-$ & \cellcolor{green!70!black!10}-0.233 & \cellcolor{green!70!black!10}t & \cellcolor{green!70!black!10}\textcolor{blue}{$\ast\ast$} & \cellcolor{green!70!black!10}-0.469 \\
+        \cellcolor{cyan!10}GPT-OSS 20B & \cellcolor{cyan!10}U & \cellcolor{cyan!10}$-$ & \cellcolor{cyan!10}-0.205 & \cellcolor{cyan!10}U & \cellcolor{cyan!10}\textcolor{blue}{$\ast$} & \cellcolor{cyan!10}-0.337 \\
+        \cellcolor{teal!10}GPT 4.1 & \cellcolor{teal!10}U & \cellcolor{teal!10}$-$ & \cellcolor{teal!10}-0.212 & \cellcolor{teal!10}U & \cellcolor{teal!10}\textcolor{blue}{$\ast\ast$} & \cellcolor{teal!10}-0.377 \\
+        \cellcolor{purple!10}DeepSeek R1 Dist. & \cellcolor{purple!10}t & \cellcolor{purple!10}\textcolor{blue}{$\ast$} & \cellcolor{purple!10}-0.315 & \cellcolor{purple!10}t & \cellcolor{purple!10}\textcolor{blue}{$\ast\ast$} & \cellcolor{purple!10}-0.498 \\
+        \cellcolor{purple!50!black!10}DeepSeek 3.1 & \cellcolor{purple!50!black!10}U & \cellcolor{purple!50!black!10}\textcolor{blue}{$\ast\ast$} & \cellcolor{purple!50!black!10}-0.379 & \cellcolor{purple!50!black!10}U & \cellcolor{purple!50!black!10}\textcolor{blue}{$\ast\ast$} & \cellcolor{purple!50!black!10}-0.431 \\
+        \cellcolor{orange!10}Grok 4.1 & \cellcolor{orange!10}U & \cellcolor{orange!10}$-$ & \cellcolor{orange!10}-0.142 & \cellcolor{orange!10}U & \cellcolor{orange!10}$-$ & \cellcolor{orange!10}-0.244 \\
+
+            \bottomrule
+        \end{tabular}
+        \caption{Adaptive significance test results: Republican vs Democrat responses (both axes combined). Significance symbols use Benjamini--Hochberg FDR-adjusted $p$-values across all models and both prompt conditions (\texttt{*}, \texttt{**} at $p<0.05$, $p<0.01$). Blue: Democrat $>$ Republican; red: Republican $>$ Democrat.}
+        \label{tab:pbt_small}
+        }
+    \end{table}
+    

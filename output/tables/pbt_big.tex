@@ -1,0 +1,189 @@
+
+\begin{center}
+
+\setlength{\LTleft}{3pt}
+\setlength{\LTright}{0pt}
+\setlength{\tabcolsep}{4pt}
+
+\begin{longtable}{@{}lll|cccccc|cccccc@{}}
+
+\caption{Shapiro-Wilk Normality Test Results}
+\label{tab:no_persona_normality_big}\\
+
+\toprule
+\multirow{3}{*}{\textbf{Model}} &
+\multirow{3}{*}{\textbf{Dimension}} &
+\multirow{3}{*}{\textbf{Prompt Type}} &
+\multicolumn{6}{c}{\textbf{party-agnostic}} &
+\multicolumn{6}{c}{\textbf{party-aware}} \\
+\cmidrule(lr){4-9} \cmidrule(lr){10-15}
+& & &
+\multicolumn{2}{c}{\textbf{Republican}} &
+\multicolumn{2}{c}{\textbf{Democrat}} &
+\multicolumn{2}{c}{\textbf{Test}} &
+\multicolumn{2}{c}{\textbf{Republican}} &
+\multicolumn{2}{c}{\textbf{Democrat}} &
+\multicolumn{2}{c}{\textbf{Test}} \\
+\cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9} \cmidrule(lr){10-11} \cmidrule(lr){12-13} \cmidrule(lr){14-15}
+& & &
+\textbf{mean} & \textbf{p} &
+\textbf{mean} & \textbf{p} &
+\textbf{type} & \textbf{p} &
+\textbf{mean} & \textbf{p} &
+\textbf{mean} & \textbf{p} &
+\textbf{type} & \textbf{p} \\
+\midrule
+\endfirsthead
+
+\toprule
+\multirow{3}{*}{\textbf{Model}} &
+\multirow{3}{*}{\textbf{Dimension}} &
+\multirow{3}{*}{\textbf{Prompt Type}} &
+\multicolumn{6}{c}{\textbf{party-agnostic}} &
+\multicolumn{6}{c}{\textbf{party-aware}} \\
+\cmidrule(lr){4-9} \cmidrule(lr){10-15}
+& & &
+\multicolumn{2}{c}{\textbf{Republican}} &
+\multicolumn{2}{c}{\textbf{Democrat}} &
+\multicolumn{2}{c}{\textbf{Test}} &
+\multicolumn{2}{c}{\textbf{Republican}} &
+\multicolumn{2}{c}{\textbf{Democrat}} &
+\multicolumn{2}{c}{\textbf{Test}} \\
+\cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9} \cmidrule(lr){10-11} \cmidrule(lr){12-13} \cmidrule(lr){14-15}
+& & &
+\textbf{mean} & \textbf{p} &
+\textbf{mean} & \textbf{p} &
+\textbf{type} & \textbf{p} &
+\textbf{mean} & \textbf{p} &
+\textbf{mean} & \textbf{p} &
+\textbf{type} & \textbf{p} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{15}{r}{\small Continued on next page}\\
+\endfoot
+
+\bottomrule
+\endlastfoot
+        Phi 3 mini & economic & direct & -0.5701 & 0.4279 & -0.4483 & 0.9277 & t & 0.5053 & -0.3855 & 0.3236 & -0.1550 & 0.1985 & t & 0.2539 \\
+        Phi 3 mini & economic & chain of thought & -0.2699 & \textbf{0.0215} & -0.0854 & 0.4639 & U & 0.4309 & -0.3904 & 0.2118 & -0.0161 & 0.2379 & t & 0.0550 \\
+        Phi 3 mini & economic & combined & -0.4200 & 0.0886 & -0.2669 & 0.7937 & t & 0.3779 & -0.3880 & 0.1881 & -0.0856 & 0.5420 & t & 0.1163 \\
+        Phi 3 mini & social & direct & -0.6000 & \textbf{0.0045} & -0.3720 & 0.6258 & U & 0.2140 & -0.7019 & \textbf{0.0039} & -0.4022 & 0.2195 & U & 0.1126 \\
+        Phi 3 mini & social & chain of thought & -0.3980 & 0.2402 & -0.2676 & 0.2521 & t & 0.4224 & -0.4770 & 0.0757 & -0.2069 & 0.0500 & t & 0.0917 \\
+        Phi 3 mini & social & combined & -0.4990 & 0.2660 & -0.3198 & 0.7039 & t & 0.2565 & -0.5895 & 0.1333 & -0.3045 & 0.2761 & t & 0.0657 \\
+        Phi 3 mini & combined & direct & -0.5903 & \textbf{0.0041} & -0.3990 & 0.5453 & U & 0.1794 & -0.5989 & \textbf{0.0088} & -0.3150 & 0.1743 & U & \textbf{0.0406} \\
+        Phi 3 mini & combined & chain of thought & -0.3563 & \textbf{0.0204} & -0.2033 & 0.1689 & U & 0.3431 & -0.4488 & \textbf{0.0087} & -0.1396 & \textbf{0.0250} & U & 0.0702 \\
+        \rowcolor{gray!20} Phi 3 mini & combined & combined & -0.4733 & 0.1014 & -0.3011 & 0.7983 & t & 0.1497 & -0.5239 & \textbf{0.0468} & -0.2273 & 0.2590 & U & \textbf{0.0441} \\
+        Phi 3 Liberal & economic & direct & -1.1347 & 0.4019 & -0.9318 & \textbf{0.0125} & U & 0.5243 & -0.8058 & 0.0609 & -0.4786 & 0.1296 & t & 0.1106 \\
+        Phi 3 Liberal & economic & chain of thought & -0.7948 & 0.2241 & -0.4494 & 0.4432 & t & 0.1198 & -0.8452 & 0.1280 & -0.3514 & 0.1628 & t & \textbf{0.0262} \\
+        Phi 3 Liberal & economic & combined & -0.9648 & 0.6440 & -0.6906 & 0.6615 & t & 0.1857 & -0.8255 & 0.2593 & -0.4150 & 0.6243 & t & \textbf{0.0428} \\
+        Phi 3 Liberal & social & direct & -0.9591 & \textbf{0.0000} & -0.9785 & \textbf{0.0166} & U & 0.7801 & -0.8381 & \textbf{0.0034} & -0.5303 & 0.0627 & U & 0.1908 \\
+        Phi 3 Liberal & social & chain of thought & -0.7261 & \textbf{0.0007} & -0.5287 & 0.1258 & U & 0.3568 & -0.9103 & \textbf{0.0004} & -0.4442 & 0.1012 & U & \textbf{0.0121} \\
+        Phi 3 Liberal & social & combined & -0.8426 & \textbf{0.0082} & -0.7536 & 0.1506 & U & 0.6847 & -0.8742 & \textbf{0.0195} & -0.4873 & 0.3359 & U & 0.0538 \\
+        Phi 3 Liberal & combined & direct & -1.0163 & \textbf{0.0002} & -0.9620 & \textbf{0.0038} & U & 0.9119 & -0.8276 & \textbf{0.0085} & -0.5120 & \textbf{0.0188} & U & \textbf{0.0498} \\
+        Phi 3 Liberal & combined & chain of thought & -0.7485 & \textbf{0.0003} & -0.5007 & 0.0906 & U & 0.1282 & -0.8891 & \textbf{0.0004} & -0.4115 & \textbf{0.0173} & U & \textbf{0.0009} \\
+        \rowcolor{gray!20} Phi 3 Liberal & combined & combined & -0.8824 & 0.0544 & -0.7314 & 0.1482 & t & 0.2479 & -0.8583 & \textbf{0.0408} & -0.4617 & 0.2309 & U & \textbf{0.0068} \\
+        Phi 3 Conservative & economic & direct & -0.7085 & 0.3062 & -0.6986 & 0.5613 & t & 0.9596 & -0.6343 & 0.2726 & -0.4049 & 0.3250 & t & 0.2410 \\
+        Phi 3 Conservative & economic & chain of thought & -0.4663 & 0.2009 & -0.2190 & 0.1515 & t & 0.2349 & -0.4558 & 0.1312 & -0.1106 & \textbf{0.0416} & U & 0.3058 \\
+        Phi 3 Conservative & economic & combined & -0.5874 & 0.9751 & -0.4588 & 0.2237 & t & 0.5014 & -0.5451 & 0.4491 & -0.2577 & 0.1539 & t & 0.1335 \\
+        Phi 3 Conservative & social & direct & -0.7527 & \textbf{0.0062} & -0.6528 & \textbf{0.0393} & U & 0.7840 & -0.8006 & 0.0535 & -0.4177 & \textbf{0.0087} & U & 0.0772 \\
+        Phi 3 Conservative & social & chain of thought & -0.5080 & 0.1027 & -0.3152 & 0.0513 & t & 0.2817 & -0.6358 & \textbf{0.0074} & -0.4308 & \textbf{0.0034} & U & 0.6104 \\
+        Phi 3 Conservative & social & combined & -0.6304 & 0.1139 & -0.4840 & 0.1619 & t & 0.3827 & -0.7182 & 0.0509 & -0.4242 & \textbf{0.0062} & U & 0.2348 \\
+        Phi 3 Conservative & combined & direct & -0.7383 & \textbf{0.0077} & -0.6689 & \textbf{0.0425} & U & 0.7176 & -0.7465 & 0.0527 & -0.4131 & \textbf{0.0070} & U & \textbf{0.0420} \\
+        Phi 3 Conservative & combined & chain of thought & -0.4944 & \textbf{0.0341} & -0.2813 & \textbf{0.0297} & U & 0.3369 & -0.5772 & \textbf{0.0006} & -0.3178 & \textbf{0.0005} & U & 0.2829 \\
+        \rowcolor{gray!20} Phi 3 Conservative & combined & combined & -0.6164 & 0.2995 & -0.4751 & 0.0897 & t & 0.2700 & -0.6618 & \textbf{0.0281} & -0.3655 & \textbf{0.0032} & U & 0.0992 \\
+        Mixtral 8x7B & economic & direct & -0.9660 & 0.4369 & -0.6358 & 0.4137 & t & 0.1712 & -0.9559 & 0.1775 & -0.3367 & 0.4897 & t & \textbf{0.0073} \\
+        Mixtral 8x7B & economic & chain of thought & -0.7189 & 0.1243 & -0.4871 & 0.9210 & t & 0.3537 & -0.6143 & 0.7757 & -0.2466 & 0.7909 & t & 0.1161 \\
+        Mixtral 8x7B & economic & combined & -0.8464 & 0.1952 & -0.5740 & 0.2951 & t & 0.2429 & -0.8029 & 0.5281 & -0.2946 & 0.7402 & t & \textbf{0.0200} \\
+        Mixtral 8x7B & social & direct & -0.7397 & \textbf{0.0158} & -0.4613 & 0.1347 & U & 0.2295 & -0.7131 & \textbf{0.0007} & -0.2156 & \textbf{0.0091} & U & \textbf{0.0492} \\
+        Mixtral 8x7B & social & chain of thought & -0.6309 & \textbf{0.0170} & -0.4540 & 0.8803 & U & 0.4681 & -0.6300 & \textbf{0.0469} & -0.1721 & 0.3979 & U & \textbf{0.0471} \\
+        Mixtral 8x7B & social & combined & -0.6929 & \textbf{0.0285} & -0.4648 & 0.7010 & U & 0.3843 & -0.7211 & \textbf{0.0030} & -0.2022 & 0.2493 & U & \textbf{0.0284} \\
+        Mixtral 8x7B & combined & direct & -0.8199 & \textbf{0.0394} & -0.5250 & \textbf{0.0450} & U & 0.0638 & -0.7987 & \textbf{0.0007} & -0.2593 & \textbf{0.0050} & U & \textbf{0.0018} \\
+        Mixtral 8x7B & combined & chain of thought & -0.6623 & 0.5440 & -0.4658 & 0.7820 & t & 0.1773 & -0.6243 & 0.3316 & -0.1991 & 0.6810 & t & \textbf{0.0032} \\
+        \rowcolor{gray!20} Mixtral 8x7B & combined & combined & -0.7476 & 0.2335 & -0.5043 & 0.4903 & t & 0.0816 & -0.7503 & \textbf{0.0061} & -0.2356 & 0.3607 & U & \textbf{0.0011} \\
+        Qwen3 4B & economic & direct & -1.5982 & 0.0501 & -1.3872 & \textbf{0.0059} & U & 0.4308 & -1.4651 & 0.0895 & -1.1356 & \textbf{0.0012} & U & 0.1677 \\
+        Qwen3 4B & economic & chain of thought & -1.6918 & \textbf{0.0255} & -1.5216 & \textbf{0.0010} & U & 0.4039 & -1.6414 & \textbf{0.0331} & -1.3710 & 0.0719 & U & 0.2530 \\
+        Qwen3 4B & economic & combined & -1.6450 & \textbf{0.0399} & -1.4544 & \textbf{0.0027} & U & 0.4401 & -1.5532 & 0.1760 & -1.2533 & \textbf{0.0104} & U & 0.1965 \\
+        Qwen3 4B & social & direct & -1.4233 & \textbf{0.0001} & -1.3376 & \textbf{0.0003} & U & 0.4818 & -1.3340 & \textbf{0.0003} & -1.1518 & \textbf{0.0013} & U & 0.2146 \\
+        Qwen3 4B & social & chain of thought & -1.5178 & \textbf{0.0001} & -1.4682 & \textbf{0.0000} & U & 0.6663 & -1.4459 & \textbf{0.0003} & -1.3106 & \textbf{0.0002} & U & 0.3025 \\
+        Qwen3 4B & social & combined & -1.4705 & \textbf{0.0004} & -1.4029 & \textbf{0.0001} & U & 0.6107 & -1.3900 & \textbf{0.0005} & -1.2312 & \textbf{0.0010} & U & 0.2202 \\
+        Qwen3 4B & combined & direct & -1.4802 & \textbf{0.0000} & -1.3551 & \textbf{0.0002} & U & 0.3106 & -1.3767 & \textbf{0.0001} & -1.1461 & \textbf{0.0003} & U & 0.0667 \\
+        Qwen3 4B & combined & chain of thought & -1.5744 & \textbf{0.0000} & -1.4870 & \textbf{0.0001} & U & 0.4578 & -1.5095 & \textbf{0.0000} & -1.3319 & \textbf{0.0004} & U & 0.1527 \\
+        \rowcolor{gray!20} Qwen3 4B & combined & combined & -1.5273 & \textbf{0.0000} & -1.4211 & \textbf{0.0002} & U & 0.3919 & -1.4431 & \textbf{0.0001} & -1.2390 & \textbf{0.0011} & U & 0.0883 \\
+        Qwen3 30B & economic & direct & -1.0873 & 0.0648 & -0.7561 & \textbf{0.0206} & U & 0.1254 & -0.9807 & 0.2441 & -0.5607 & 0.0598 & t & \textbf{0.0489} \\
+        Qwen3 30B & economic & chain of thought & -0.7986 & 0.2163 & -0.6639 & 0.1075 & t & 0.5434 & -0.8161 & \textbf{0.0242} & -0.5924 & 0.1169 & U & 0.3517 \\
+        Qwen3 30B & economic & combined & -0.9430 & 0.0797 & -0.7100 & \textbf{0.0372} & U & 0.3136 & -0.8984 & 0.1284 & -0.5766 & \textbf{0.0404} & U & 0.1519 \\
+        Qwen3 30B & social & direct & -1.1049 & \textbf{0.0005} & -0.8673 & \textbf{0.0011} & U & 0.0933 & -1.0469 & \textbf{0.0015} & -0.6097 & \textbf{0.0488} & U & \textbf{0.0089} \\
+        Qwen3 30B & social & chain of thought & -1.0149 & \textbf{0.0001} & -0.6505 & \textbf{0.0012} & U & \textbf{0.0381} & -0.8987 & \textbf{0.0008} & -0.4468 & \textbf{0.0036} & U & \textbf{0.0096} \\
+        Qwen3 30B & social & combined & -1.0599 & \textbf{0.0004} & -0.7589 & \textbf{0.0200} & U & 0.0530 & -0.9728 & \textbf{0.0043} & -0.5282 & \textbf{0.0374} & U & \textbf{0.0071} \\
+        Qwen3 30B & combined & direct & -1.0992 & \textbf{0.0002} & -0.8280 & \textbf{0.0001} & U & \textbf{0.0240} & -1.0253 & \textbf{0.0012} & -0.5924 & \textbf{0.0043} & U & \textbf{0.0015} \\
+        Qwen3 30B & combined & chain of thought & -0.9445 & \textbf{0.0002} & -0.6553 & \textbf{0.0002} & U & \textbf{0.0493} & -0.8718 & \textbf{0.0004} & -0.4982 & \textbf{0.0002} & U & \textbf{0.0084} \\
+        \rowcolor{gray!20} Qwen3 30B & combined & combined & -1.0218 & \textbf{0.0009} & -0.7416 & \textbf{0.0016} & U & \textbf{0.0281} & -0.9486 & \textbf{0.0080} & -0.5453 & \textbf{0.0027} & U & \textbf{0.0027} \\
+        Llama3 8B & economic & direct & -0.8870 & \textbf{0.0415} & -0.7358 & \textbf{0.0487} & U & 0.5096 & -1.1422 & \textbf{0.0362} & -0.8433 & 0.1085 & U & 0.1079 \\
+        Llama3 8B & economic & chain of thought & -0.7351 & 0.1715 & -0.4819 & 0.0698 & t & 0.1734 & -0.8487 & 0.6614 & -0.4446 & 0.2235 & t & \textbf{0.0292} \\
+        Llama3 8B & economic & combined & -0.8111 & 0.0501 & -0.6088 & \textbf{0.0358} & U & 0.4331 & -0.9954 & 0.1550 & -0.6440 & 0.2142 & t & 0.0540 \\
+        Llama3 8B & social & direct & -0.7415 & \textbf{0.0097} & -0.5507 & \textbf{0.0217} & U & 0.2309 & -0.9474 & \textbf{0.0000} & -0.6414 & \textbf{0.0110} & U & 0.0615 \\
+        Llama3 8B & social & chain of thought & -0.6708 & 0.0985 & -0.4247 & 0.1066 & t & 0.0931 & -0.7744 & 0.0577 & -0.3655 & 0.4815 & t & \textbf{0.0064} \\
+        Llama3 8B & social & combined & -0.7062 & 0.0608 & -0.4877 & \textbf{0.0472} & U & 0.1638 & -0.8609 & \textbf{0.0012} & -0.5035 & \textbf{0.0449} & U & \textbf{0.0204} \\
+        Llama3 8B & combined & direct & -0.7889 & \textbf{0.0038} & -0.6160 & \textbf{0.0074} & U & 0.1671 & -1.0108 & \textbf{0.0000} & -0.7127 & \textbf{0.0040} & U & \textbf{0.0184} \\
+        Llama3 8B & combined & chain of thought & -0.6917 & 0.1199 & -0.4449 & \textbf{0.0367} & U & 0.0598 & -0.7986 & 0.0888 & -0.3934 & 0.1473 & t & \textbf{0.0005} \\
+        \rowcolor{gray!20} Llama3 8B & combined & combined & -0.7403 & \textbf{0.0216} & -0.5305 & \textbf{0.0164} & U & 0.1055 & -0.9047 & \textbf{0.0008} & -0.5530 & \textbf{0.0176} & U & \textbf{0.0040} \\
+        GPT-OSS 20B & economic & direct & -1.4694 & \textbf{0.0340} & -1.2556 & \textbf{0.0190} & U & 0.2719 & -1.4993 & 0.6164 & -1.1744 & 0.1396 & t & 0.1115 \\
+        GPT-OSS 20B & economic & chain of thought & -1.5505 & 0.0633 & -1.3330 & \textbf{0.0150} & U & 0.2583 & -1.5969 & 0.2096 & -1.2887 & \textbf{0.0281} & U & 0.1706 \\
+        GPT-OSS 20B & economic & combined & -1.5099 & \textbf{0.0449} & -1.2943 & \textbf{0.0176} & U & 0.2767 & -1.5481 & 0.4121 & -1.2316 & 0.0755 & t & 0.1202 \\
+        GPT-OSS 20B & social & direct & -1.2575 & \textbf{0.0167} & -0.9986 & 0.0541 & U & 0.1050 & -1.2816 & \textbf{0.0110} & -0.9238 & 0.1288 & U & \textbf{0.0253} \\
+        GPT-OSS 20B & social & chain of thought & -1.2141 & \textbf{0.0233} & -1.0421 & 0.0676 & U & 0.3211 & -1.4033 & \textbf{0.0025} & -1.0407 & 0.0948 & U & \textbf{0.0354} \\
+        GPT-OSS 20B & social & combined & -1.2358 & \textbf{0.0166} & -1.0203 & 0.0568 & U & 0.1717 & -1.3425 & \textbf{0.0062} & -0.9822 & 0.0785 & U & \textbf{0.0308} \\
+        GPT-OSS 20B & combined & direct & -1.3264 & \textbf{0.0020} & -1.0893 & \textbf{0.0108} & U & 0.0556 & -1.3525 & \textbf{0.0060} & -1.0122 & \textbf{0.0312} & U & \textbf{0.0087} \\
+        GPT-OSS 20B & combined & chain of thought & -1.3236 & \textbf{0.0037} & -1.1447 & \textbf{0.0047} & U & 0.1629 & -1.4663 & \textbf{0.0007} & -1.1283 & \textbf{0.0093} & U & \textbf{0.0143} \\
+        \rowcolor{gray!20} GPT-OSS 20B & combined & combined & -1.3250 & \textbf{0.0028} & -1.1170 & \textbf{0.0047} & U & 0.0892 & -1.4094 & \textbf{0.0023} & -1.0702 & \textbf{0.0147} & U & \textbf{0.0109} \\
+        GPT 4.1 & economic & direct & -0.5897 & \textbf{0.0024} & -0.3065 & 0.2699 & U & 0.1989 & -0.5993 & \textbf{0.0448} & -0.1748 & 0.4839 & U & \textbf{0.0419} \\
+        GPT 4.1 & economic & chain of thought & -0.6464 & \textbf{0.0058} & -0.2911 & 0.0521 & U & 0.0976 & -0.5771 & \textbf{0.0150} & -0.0622 & 0.0960 & U & \textbf{0.0084} \\
+        GPT 4.1 & economic & combined & -0.6180 & \textbf{0.0119} & -0.2988 & 0.1043 & U & 0.1006 & -0.5882 & 0.0508 & -0.1185 & 0.3585 & t & \textbf{0.0136} \\
+        GPT 4.1 & social & direct & -0.4812 & \textbf{0.0000} & -0.3071 & \textbf{0.0013} & U & 0.2556 & -0.5069 & \textbf{0.0000} & -0.2017 & \textbf{0.0006} & U & \textbf{0.0336} \\
+        GPT 4.1 & social & chain of thought & -0.4834 & \textbf{0.0000} & -0.3393 & \textbf{0.0007} & U & 0.3375 & -0.5128 & \textbf{0.0000} & -0.0749 & \textbf{0.0001} & U & \textbf{0.0006} \\
+        GPT 4.1 & social & combined & -0.4823 & \textbf{0.0000} & -0.3232 & \textbf{0.0013} & U & 0.3426 & -0.5099 & \textbf{0.0000} & -0.1383 & \textbf{0.0003} & U & \textbf{0.0064} \\
+        GPT 4.1 & combined & direct & -0.5165 & \textbf{0.0000} & -0.3069 & \textbf{0.0008} & U & 0.0977 & -0.5370 & \textbf{0.0000} & -0.1922 & \textbf{0.0017} & U & \textbf{0.0031} \\
+        GPT 4.1 & combined & chain of thought & -0.5365 & \textbf{0.0000} & -0.3221 & \textbf{0.0003} & U & 0.0743 & -0.5337 & \textbf{0.0000} & -0.0704 & \textbf{0.0001} & U & \textbf{0.0000} \\
+        \rowcolor{gray!20} GPT 4.1 & combined & combined & -0.5265 & \textbf{0.0000} & -0.3145 & \textbf{0.0006} & U & 0.0842 & -0.5354 & \textbf{0.0000} & -0.1313 & \textbf{0.0007} & U & \textbf{0.0003} \\
+        DeepSeek R1 Dist. & economic & direct & -0.5936 & 0.5567 & -0.3328 & 0.2125 & t & 0.1455 & -0.6725 & 0.2943 & -0.2798 & 0.9740 & t & 0.0704 \\
+        DeepSeek R1 Dist. & economic & chain of thought & -0.6543 & 0.6604 & -0.4471 & 0.2319 & t & 0.2628 & -0.6857 & 0.3437 & -0.2894 & 0.2526 & t & \textbf{0.0320} \\
+        DeepSeek R1 Dist. & economic & combined & -0.6240 & 0.5936 & -0.3900 & 0.2243 & t & 0.1920 & -0.6895 & 0.3623 & -0.2868 & 0.2630 & t & \textbf{0.0265} \\
+        DeepSeek R1 Dist. & social & direct & -0.5312 & 0.1103 & -0.1394 & 0.6838 & t & \textbf{0.0072} & -0.5979 & \textbf{0.0099} & -0.0337 & 0.5404 & U & \textbf{0.0084} \\
+        DeepSeek R1 Dist. & social & chain of thought & -0.6135 & 0.1172 & -0.2977 & 0.7321 & t & \textbf{0.0253} & -0.6492 & \textbf{0.0475} & -0.1086 & 0.9434 & U & \textbf{0.0004} \\
+        DeepSeek R1 Dist. & social & combined & -0.5724 & 0.0919 & -0.2186 & 0.6157 & t & \textbf{0.0126} & -0.6487 & \textbf{0.0451} & -0.1021 & 0.9636 & U & \textbf{0.0004} \\
+        DeepSeek R1 Dist. & combined & direct & -0.5515 & 0.4488 & -0.2077 & 0.3558 & t & \textbf{0.0025} & -0.6245 & 0.0897 & -0.1214 & 0.7267 & t & \textbf{0.0003} \\
+        DeepSeek R1 Dist. & combined & chain of thought & -0.6268 & 0.2335 & -0.3504 & 0.3440 & t & \textbf{0.0138} & -0.6611 & 0.0725 & -0.1724 & 0.6262 & t & \textbf{0.0000} \\
+        \rowcolor{gray!20} DeepSeek R1 Dist. & combined & combined & -0.5891 & 0.2659 & -0.2791 & 0.2595 & t & \textbf{0.0054} & -0.6620 & 0.0691 & -0.1673 & 0.6660 & t & \textbf{0.0000} \\
+        DeepSeek 3.1 & economic & direct & -0.5803 & 0.3176 & -0.3276 & 0.2557 & t & 0.1586 & -0.6504 & 0.5268 & -0.2309 & 0.5303 & t & \textbf{0.0151} \\
+        DeepSeek 3.1 & economic & chain of thought & -0.7449 & 0.4937 & -0.3914 & 0.8190 & t & \textbf{0.0340} & -0.7422 & 0.7729 & -0.2678 & 0.4318 & t & \textbf{0.0072} \\
+        DeepSeek 3.1 & economic & combined & -0.6626 & 0.4296 & -0.3595 & 0.8562 & t & 0.0726 & -0.6963 & 0.2706 & -0.2493 & 0.5050 & t & \textbf{0.0092} \\
+        DeepSeek 3.1 & social & direct & -0.5678 & \textbf{0.0113} & -0.1644 & \textbf{0.0481} & U & \textbf{0.0039} & -0.5408 & \textbf{0.0424} & -0.1628 & 0.2321 & U & \textbf{0.0053} \\
+        DeepSeek 3.1 & social & chain of thought & -0.6877 & \textbf{0.0014} & -0.2793 & 0.2060 & U & \textbf{0.0052} & -0.6884 & \textbf{0.0152} & -0.1687 & 0.6639 & U & \textbf{0.0003} \\
+        DeepSeek 3.1 & social & combined & -0.6278 & \textbf{0.0013} & -0.2219 & 0.2153 & U & \textbf{0.0053} & -0.6146 & \textbf{0.0281} & -0.1657 & 0.5554 & U & \textbf{0.0012} \\
+        DeepSeek 3.1 & combined & direct & -0.5719 & \textbf{0.0142} & -0.2225 & \textbf{0.0096} & U & \textbf{0.0010} & -0.5764 & \textbf{0.0230} & -0.1868 & 0.1340 & U & \textbf{0.0003} \\
+        DeepSeek 3.1 & combined & chain of thought & -0.7063 & \textbf{0.0026} & -0.3192 & 0.1287 & U & \textbf{0.0006} & -0.7059 & \textbf{0.0179} & -0.2037 & 0.4386 & U & \textbf{0.0000} \\
+        \rowcolor{gray!20} DeepSeek 3.1 & combined & combined & -0.6391 & \textbf{0.0036} & -0.2708 & 0.1103 & U & \textbf{0.0009} & -0.6412 & \textbf{0.0158} & -0.1952 & 0.4522 & U & \textbf{0.0001} \\
+        Grok 4.1 & economic & direct & -0.8697 & 0.2847 & -0.6078 & 0.9327 & t & 0.1431 & -0.5745 & 0.0946 & -0.2174 & 0.8238 & t & \textbf{0.0459} \\
+        Grok 4.1 & economic & chain of thought & -0.9217 & 0.1188 & -0.6256 & 0.5540 & t & 0.1039 & -0.9133 & 0.0792 & -0.6644 & 0.8310 & t & 0.1764 \\
+        Grok 4.1 & economic & combined & -0.8957 & 0.3274 & -0.6167 & 0.9903 & t & 0.1144 & -0.7439 & 0.1411 & -0.4409 & 0.9611 & t & 0.0837 \\
+        Grok 4.1 & social & direct & -0.7459 & \textbf{0.0021} & -0.7200 & 0.1895 & U & 0.9576 & -0.5204 & \textbf{0.0101} & -0.2477 & 0.7230 & U & 0.1145 \\
+        Grok 4.1 & social & chain of thought & -0.7378 & \textbf{0.0012} & -0.6164 & 0.3245 & U & 0.5446 & -0.7965 & \textbf{0.0022} & -0.7721 & 0.0661 & U & 0.8795 \\
+        Grok 4.1 & social & combined & -0.7419 & \textbf{0.0015} & -0.6682 & 0.2942 & U & 0.7512 & -0.6585 & \textbf{0.0029} & -0.5099 & 0.7154 & U & 0.3885 \\
+        Grok 4.1 & combined & direct & -0.7862 & \textbf{0.0019} & -0.6804 & 0.2096 & U & 0.4735 & -0.5380 & \textbf{0.0019} & -0.2370 & 0.7410 & U & \textbf{0.0140} \\
+        Grok 4.1 & combined & chain of thought & -0.7976 & \textbf{0.0018} & -0.6196 & 0.2938 & U & 0.2301 & -0.8345 & \textbf{0.0015} & -0.7341 & 0.0893 & U & 0.5129 \\
+        \rowcolor{gray!20} Grok 4.1 & combined & combined & -0.7919 & \textbf{0.0033} & -0.6500 & 0.5316 & U & 0.3227 & -0.6863 & \textbf{0.0008} & -0.4856 & 0.6253 & U & 0.1109 \\
+        Mistral 7B & economic & direct & -1.0349 & 0.0662 & -1.0083 & \textbf{0.0124} & U & 0.8589 & -0.9518 & \textbf{0.0121} & -0.9406 & \textbf{0.0008} & U & 0.9007 \\
+        Mistral 7B & economic & chain of thought & -1.0001 & 0.1701 & -0.9571 & 0.5565 & t & 0.8301 & -1.0941 & 0.0962 & -0.9584 & 0.5641 & t & 0.5061 \\
+        Mistral 7B & economic & combined & -1.0175 & 0.1678 & -0.9827 & 0.1791 & t & 0.8483 & -1.0229 & 0.1806 & -0.9495 & \textbf{0.0479} & U & 0.6161 \\
+        Mistral 7B & social & direct & -0.8745 & \textbf{0.0003} & -0.7744 & \textbf{0.0151} & U & 0.6610 & -0.8657 & \textbf{0.0000} & -0.7455 & \textbf{0.0038} & U & 0.5366 \\
+        Mistral 7B & social & chain of thought & -0.9151 & \textbf{0.0097} & -0.7322 & 0.1808 & U & 0.3520 & -0.9669 & \textbf{0.0062} & -0.8007 & 0.2354 & U & 0.4376 \\
+        Mistral 7B & social & combined & -0.8948 & \textbf{0.0034} & -0.7533 & 0.1358 & U & 0.4346 & -0.9163 & \textbf{0.0021} & -0.7731 & 0.0906 & U & 0.4891 \\
+        Mistral 7B & combined & direct & -0.9268 & \textbf{0.0001} & -0.8570 & \textbf{0.0015} & U & 0.6869 & -0.8937 & \textbf{0.0000} & -0.8143 & \textbf{0.0001} & U & 0.5715 \\
+        Mistral 7B & combined & chain of thought & -0.9427 & \textbf{0.0291} & -0.8116 & 0.0768 & U & 0.3443 & -1.0083 & \textbf{0.0080} & -0.8563 & 0.1551 & U & 0.3072 \\
+        \rowcolor{gray!20} Mistral 7B & combined & combined & -0.9347 & \textbf{0.0021} & -0.8343 & \textbf{0.0454} & U & 0.4697 & -0.9510 & \textbf{0.0011} & -0.8353 & \textbf{0.0155} & U & 0.4273 \\
+
+
+\end{longtable}
+\end{center}

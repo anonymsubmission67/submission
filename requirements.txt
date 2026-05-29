@@ -1,0 +1,11 @@
+pandas
+numpy
+statsmodels
+krippendorff
+matplotlib
+seaborn
+scikit-learn
+sentence-transformers
+nltk
+openai
+python-dotenv

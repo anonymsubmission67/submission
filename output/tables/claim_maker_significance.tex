@@ -1,0 +1,35 @@
+% Requires: \usepackage{xcolor,colortbl,booktabs}
+\begin{table}[ht]
+\centering
+{\small
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lccc@{\hspace{1pt}}c@{}}
+\toprule
+ & \makecell{\textbf{golden} \\ \textbf{truth}} & \makecell{\textbf{claim} \\ \textbf{party}} & \multicolumn{2}{c}{\makecell{\textbf{claim maker} \\ \textbf{party}}} \\
+\midrule
+\cellcolor{gray!12}{Phi 3 mini} & \cellcolor{gray!12}{\textbf{0.280}} & \cellcolor{gray!12}{0.173} & \cellcolor{gray!12}{0.124} & \cellcolor{gray!12}{\textcolor{blue}{$\ast$}} \\
+\cellcolor{gray!70!black!12}{Phi 3 small} & \cellcolor{gray!70!black!12}{0.184} & \cellcolor{gray!70!black!12}{\textbf{0.221}} & \cellcolor{gray!70!black!12}{0.019} & \cellcolor{gray!70!black!12}{} \\
+\cellcolor{gray!40!black!12}{Phi 3 medium} & \cellcolor{gray!40!black!12}{\textbf{0.241}} & \cellcolor{gray!40!black!12}{0.188} & \cellcolor{gray!40!black!12}{0.102} & \cellcolor{gray!40!black!12}{\textcolor{blue}{$\ast$}} \\
+\cellcolor{blue!12}{Phi 3 Liberal} & \cellcolor{blue!12}{\textbf{0.265}} & \cellcolor{blue!12}{0.181} & \cellcolor{blue!12}{0.215} & \cellcolor{blue!12}{\textcolor{blue}{$\ast\ast$}} \\
+\cellcolor{red!12}{Phi 3 Conservative} & \cellcolor{red!12}{\textbf{0.283}} & \cellcolor{red!12}{0.142} & \cellcolor{red!12}{0.155} & \cellcolor{red!12}{\textcolor{blue}{$\ast$}} \\
+\cellcolor{violet!12}{Ministral 3B} & \cellcolor{violet!12}{\textbf{0.132}} & \cellcolor{violet!12}{0.128} & \cellcolor{violet!12}{0.117} & \cellcolor{violet!12}{\textcolor{blue}{$\ast\ast$}} \\
+\cellcolor{magenta!12}{Ministral 8B} & \cellcolor{magenta!12}{\textbf{0.200}} & \cellcolor{magenta!12}{0.195} & \cellcolor{magenta!12}{0.120} & \cellcolor{magenta!12}{\textcolor{blue}{$\ast$}} \\
+\cellcolor{purple!12}{Ministral 14B} & \cellcolor{purple!12}{\textbf{0.318}} & \cellcolor{purple!12}{0.212} & \cellcolor{purple!12}{0.129} & \cellcolor{purple!12}{\textcolor{blue}{$\ast$}} \\
+\cellcolor{blue!50!black!12}{Mixtral 8x7B} & \cellcolor{blue!50!black!12}{0.304} & \cellcolor{blue!50!black!12}{\textbf{0.311}} & \cellcolor{blue!50!black!12}{0.222} & \cellcolor{blue!50!black!12}{\textcolor{blue}{$\ast\ast$}} \\
+\cellcolor{brown!12}{Qwen3 4B} & \cellcolor{brown!12}{\textbf{0.144}} & \cellcolor{brown!12}{0.125} & \cellcolor{brown!12}{0.079} & \cellcolor{brown!12}{\textcolor{blue}{$\ast$}} \\
+\cellcolor{brown!50!black!12}{Qwen3 30B} & \cellcolor{brown!50!black!12}{\textbf{0.403}} & \cellcolor{brown!50!black!12}{0.284} & \cellcolor{brown!50!black!12}{0.119} & \cellcolor{brown!50!black!12}{} \\
+\cellcolor{brown!70!black!12}{Qwen3 80B} & \cellcolor{brown!70!black!12}{\textbf{0.459}} & \cellcolor{brown!70!black!12}{0.388} & \cellcolor{brown!70!black!12}{0.130} & \cellcolor{brown!70!black!12}{\textcolor{blue}{$\ast$}} \\
+\cellcolor{green!12}{Llama3 8B} & \cellcolor{green!12}{0.173} & \cellcolor{green!12}{0.134} & \cellcolor{green!12}{\textbf{0.218}} & \cellcolor{green!12}{\textcolor{blue}{$\ast\ast$}} \\
+\cellcolor{green!50!black!12}{Llama3 80B} & \cellcolor{green!50!black!12}{\textbf{0.492}} & \cellcolor{green!50!black!12}{0.343} & \cellcolor{green!50!black!12}{0.199} & \cellcolor{green!50!black!12}{\textcolor{blue}{$\ast\ast$}} \\
+\cellcolor{green!70!black!12}{Llama 4 Scout} & \cellcolor{green!70!black!12}{\textbf{0.421}} & \cellcolor{green!70!black!12}{0.245} & \cellcolor{green!70!black!12}{0.224} & \cellcolor{green!70!black!12}{\textcolor{blue}{$\ast\ast$}} \\
+\cellcolor{cyan!12}{GPT-OSS 20B} & \cellcolor{cyan!12}{0.147} & \cellcolor{cyan!12}{\textbf{0.239}} & \cellcolor{cyan!12}{0.098} & \cellcolor{cyan!12}{\textcolor{blue}{$\ast$}} \\
+\cellcolor{teal!12}{GPT 4.1} & \cellcolor{teal!12}{\textbf{0.611}} & \cellcolor{teal!12}{0.190} & \cellcolor{teal!12}{0.187} & \cellcolor{teal!12}{\textcolor{blue}{$\ast\ast$}} \\
+\cellcolor{purple!12}{DeepSeek R1 Dist.} & \cellcolor{purple!12}{0.288} & \cellcolor{purple!12}{\textbf{0.312}} & \cellcolor{purple!12}{0.186} & \cellcolor{purple!12}{\textcolor{blue}{$\ast\ast$}} \\
+\cellcolor{purple!50!black!12}{DeepSeek 3.1} & \cellcolor{purple!50!black!12}{\textbf{0.398}} & \cellcolor{purple!50!black!12}{0.291} & \cellcolor{purple!50!black!12}{0.140} & \cellcolor{purple!50!black!12}{\textcolor{blue}{$\ast\ast$}} \\
+\cellcolor{orange!12}{Grok 4.1} & \cellcolor{orange!12}{\textbf{0.384}} & \cellcolor{orange!12}{0.131} & \cellcolor{orange!12}{0.113} & \cellcolor{orange!12}{\textcolor{blue}{$\ast$}} \\
+\bottomrule
+\end{tabular}
+\caption{OLS regressions ($y$: model score). Republican indicators for actual and pretended party; golden-truth ordinal score. Intercept omitted from display (still fitted in OLS). \textbf{Coefficient columns} report $\left|\hat{\beta}\right|$; within each model row the largest magnitude is set in bold. Significance for claim maker party only: Benjamini--Hochberg FDR-adjusted $p$-values across models (\texttt{*}, \texttt{**} at $p<0.05$, $p<0.01$).}
+\label{tab:regression_results}
+}
+\end{table}
